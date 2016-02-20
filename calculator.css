@@ -1,0 +1,78 @@
+#calc-box{
+  width: 299px;
+  height: 510px;
+  background: linear-gradient(#cec9c9, #999);
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 15px;
+}
+
+#button-board {
+  width: 302px; 
+}
+
+#button-board button {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px outset #999;
+  box-shadow: 1px 1px 2px #72716e;
+  margin: 1px;
+  font-family: sans-serif;
+  font-size: 150%;
+}
+
+#button-board button:hover{
+  background-color: #aba9a9;
+}
+
+#button-board button:active{
+  background: radial-gradient(circle, #6d6b6b, #aba9a9);
+}
+
+#button-board .wide {
+  width: 146px;
+}
+
+#left-columns{
+  max-width: 225px;
+  float: left;
+}
+
+#right-column{
+  width: 75px;
+  margin-left: 1px;
+  float: right;
+}
+
+#right-column .tall {
+  height: 142px;
+  padding-top: 100px;
+}
+
+#display {
+  background-color: #ddffdd;
+  width: 264px;
+  height: 30px;
+  margin: 1px;
+  padding: 15px;
+  padding-bottom: 25px;
+  text-align: right;
+  line-height: 20px;
+  font-family: sans-serif;
+  font-size: 150%;
+  margin-bottom: 5px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px inset #999;
+  box-shadow: 1px 1px 2px #ccc;
+}
+
+#operator-display{
+  position: relative;
+  top: 15px;
+  right: 100px;
+  margin: 0px;
+  text-align: right;
+}
